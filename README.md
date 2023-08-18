@@ -5,8 +5,10 @@ A website project that revolves around promoting a book titled "Greed Never Ends
 - Homepage Book Presentation 
 - Responsive Design: The website is designed to be responsive and adapts to various screen sizes,
   ensuring a seamless experience across devices.
-- Easy to use!
-
+- Dropdown Menu
+- Book Descriptions
+- Social Media Links
+- Future Backend Integration
 
 ## Tech stack
 - HTML
