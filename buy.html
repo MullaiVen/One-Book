@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Now</title>
+    <link rel="stylesheet" href="buy.css">
+</head>
+<body>
+    <div class="box">
+        <span class="borderLine"></span>
+        <form>
+            <h2>Buy Now</h2>
+            <div class="inputbox">
+                <input type="text" required="required">
+                <span>Name</span>   
+                <i></i>
+            </div>
+            <div class="inputbox">
+                <input type="email" required="required">
+                <span>Email</span>   
+                <i></i>
+            </div>
+            <div class="inputbox">
+                <input type="text" required="required">
+                <span>Address</span>   
+                <i></i>
+            </div>
+            <input type="submit" value="Purchase" id="purchase-button">
+        </form>
+        <div id="confirmation-message" class="hidden mt-4 alert alert-success">
+            <p class="mb-0">Thank you for your purchase! Your order has been received.</p>
+            <p class="mb-0">We will deliver your book to the provided address.</p>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const purchaseButton = document.getElementById("purchase-button");
+
+            purchaseButton.addEventListener("click", function (event) {
+                event.preventDefault();
+                alert("Thank you for your purchase! Your order has been received.");
+            });
+        });
+    </script>
+</body>
+</html>
